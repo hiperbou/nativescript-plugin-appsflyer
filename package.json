@@ -48,6 +48,12 @@
   },
   "main": "appsflyer",
   "name": "nativescript-plugin-appsflyer",
+  "nativescript": {
+    "platforms": {
+      "android": "1.5.0",
+      "ios": "1.5.0"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AppsFlyerSDK/nativescript-plugin-appsflyer.git"
