@@ -57,19 +57,8 @@ exports.initSdk = function (args) {
                                     console.error("AF-A :: onInstallConversionFailure: callback is not a function");
                                 }
                             },
-                            onAttributionFailure: function (error) {
-                                console.log("AF-A :: onAttributionFailure: " + error);
-                            },
-                            onAppOpenAttribution: function (onAppOpenAttributionData) {
-                                if (_isDebugLocal) {
-                                    var data = {};
-                                    for (var _i = 0, _a = stringSetToStringArray(onAppOpenAttributionData.keySet()); _i < _a.length; _i++) {
-                                        var key = _a[_i];
-                                        data[key] = onAppOpenAttributionData.get(key);
-                                    }
-                                    console.log("AF-A :: onAppOpenAttribution is called with data: " + JSON.stringify(data));
-                                }
-                            },
+                            onAttributionFailure: function (param0) { },
+                            onAppOpenAttribution: function (param0) { },
                         });
                     }
                     catch (e) {

@@ -1,27 +1,27 @@
 {
-  "_from": "nativescript-plugin-appsflyer",
-  "_id": "nativescript-plugin-appsflyer@5.2.1",
+  "_from": "nativescript-plugin-appsflyer@5.1.0",
+  "_id": "nativescript-plugin-appsflyer@5.1.0",
   "_inBundle": false,
-  "_integrity": "sha512-hOhFnDQ5eXPIZACi+kyylK1FD1SlHzPlEuSyce07wBIk8UOEai+PFnYwx837CPfoEayjNQwaSmn5jfXwLoP53w==",
+  "_integrity": "sha512-d5iYKuPHo9zCd7xmzTOM5daKsEhVvJNB5Wzty6noV1a7qUdS0n/k1PHmJdfDlz3Yb5iiNj/P8uG5voBU2cEFBw==",
   "_location": "/nativescript-plugin-appsflyer",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-plugin-appsflyer",
+    "raw": "nativescript-plugin-appsflyer@5.1.0",
     "name": "nativescript-plugin-appsflyer",
     "escapedName": "nativescript-plugin-appsflyer",
-    "rawSpec": "",
+    "rawSpec": "5.1.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "5.1.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nativescript-plugin-appsflyer/-/nativescript-plugin-appsflyer-5.2.1.tgz",
-  "_shasum": "304fc0711605ea195ec94ce7af02c98eee0dae84",
-  "_spec": "nativescript-plugin-appsflyer",
+  "_resolved": "https://registry.npmjs.org/nativescript-plugin-appsflyer/-/nativescript-plugin-appsflyer-5.1.0.tgz",
+  "_shasum": "86613922c0f5ac78fa24c0c45b0f88b1e84c746c",
+  "_spec": "nativescript-plugin-appsflyer@5.1.0",
   "_where": "D:\\code\\kk",
   "author": {
     "name": "Appsflyer / Maxim Shoustin"
@@ -48,41 +48,10 @@
   },
   "main": "appsflyer",
   "name": "nativescript-plugin-appsflyer",
-  "nativescript": {
-    "platforms": {
-      "android": "6.3.1",
-      "ios": "6.3.0"
-    },
-    "tns-ios": {
-      "version": "6.3.0"
-    }
-  },
-  "peerDependencies": {
-    "tns-core-modules": "^3.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AppsFlyerSDK/nativescript-plugin-appsflyer.git"
   },
-  "scripts": {
-    "build": "tsc",
-    "buildall": "tsc; tns build",
-    "demo.android": "npm run preparedemo; cd demoNative; tns run android",
-    "demo.android.watch": "npm run preparedemo; cd demoNative; tns livesync android --emulator --watch",
-    "demo.debug.a": "cd demoNative; tns debug android",
-    "demo.debug.i": "cd demoNative; tns debug ios",
-    "demo.ios": "npm run preparedemo; cd demoNative; tns run ios",
-    "demo.ios.build": "cd demoNative; tns build ios; tns run ios;",
-    "demo.ios.watch": "npm run preparedemo; cd demoNative; tns livesync ios --watch",
-    "demo.ios.watch.sim": "npm run preparedemo; cd demoNative; tns livesync ios --emulator --watch",
-    "prepack": "tsc",
-    "preparedemo": "npm run build; cd demoNative; tns plugin remove nativescript-plugin-appsflyer; tns plugin add ..; tns install",
-    "ra": "cd demoNative; tns run android",
-    "raw": "cd demoNative; tns livesync android --watch",
-    "riw": "cd demoNative; tns livesync ios --watch",
-    "run.android": "npm run preparedemo; cd demoNative; tns run android",
-    "setup": "cd demoNative; npm install; cd ..; npm i; npm run build; cd demoNative; tns plugin add ..; cd .."
-  },
   "typings": "index.d.ts",
-  "version": "5.2.1"
+  "version": "5.1.0"
 }
